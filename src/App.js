@@ -1,13 +1,14 @@
 import './App.css';
 import Header from './components/Header';
+import De from './components/Defaultmap';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <button>Sign in here pls</button>
     </div>
   );
+
 }
 
 export default App;
