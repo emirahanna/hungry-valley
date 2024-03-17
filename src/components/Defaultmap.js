@@ -32,7 +32,7 @@ render() {
     marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 circle.bindPopup("I am a circle.");
 polygon.bindPopup("I am a polygon.");
-
+return()
     }
 }
 export default Defaultmap
