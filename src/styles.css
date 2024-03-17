@@ -10,6 +10,7 @@
 
 #root{
     height: 100vh;
+    width: 50vh;
 }
 
 .leaflet-container {
