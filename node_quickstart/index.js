@@ -5,7 +5,7 @@
 const mongoose = require('mongoose');
 mongoose.set("strictQuery", false)
 mongoose.
-connect("mongodb+srv://hxf5155:Z%40fas121540A@hungryvalley.8k7huj4.mongodb.net/?retryWrites=true&w=majority&appName=HungryValley", {
+connect("mongodb+srv://hxf5155:zMcATSrkZkr5rQAc@hungryvalley.8k7huj4.mongodb.net/?retryWrites=true&w=majority&appName=HungryValley", {
     dbName: 'HungryValley',
     useNewUrlParser: true,
     useUnifiedTopology: true
