@@ -14,6 +14,7 @@ function Header(){
             {!error && isLoading && <p>Loading...</p>}
 			{!error && !isLoading && (
                 <>
+
                 <LoginButton />
                 <LogoutButton />
                 <Profile />
