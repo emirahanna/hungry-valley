@@ -3,32 +3,38 @@
     position: relative;
     display: inline-flex;
     width: 100%;
+    
 }
 
 .title{
     font-size: 2em;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Madimi One', sans-serif;
     font-weight: 700;
-    font-style: italic;
     color: #593BCD;
     margin: 16px;
 }
 
+
+
 .btn{
-    margin: 16px;
-    padding: 8px 16px 8px 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 16px 12px;
     background-color: #E28C93;
     color: #030209;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 1em;
+    transition: ease-in-out 0.2s;
     position: absolute;
     right: 0;
+    margin: 12px;
+
 }
 
-.btn:hover, .btn:active, .btn:focus{
+.btn:hover, .btn:focus, .btn:active{
+    
     background-color: #593BCD;
     color: #F8F7FD;
-    border: 1px solid #F8F7FD;
+    box-shadow: 0 0 8px 0 #000000;
 }

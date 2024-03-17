@@ -1,12 +1,14 @@
 import React from "react";
 import "./Header.css";
-
+import Signup from "../pages/signup";
 
 function Header(){
     return (
-        <header class="header">
-            <h1 class="title">HungryValley</h1>
-            <button class="btn">Vendor? Sign in here!</button>
+        <header className="header">
+            <h1 className="title">HungryValley</h1>
+
+            <button className="btn" onClick={Signup}>Vendors? Sign up here!</button>
+
         </header>
     );
 }
