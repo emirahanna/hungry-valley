@@ -13,6 +13,26 @@
     color: #593BCD;
     margin: 16px;
 }
-
+.search-container {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    width: 300px; /* Adjust width as needed */
+    border: none;
+    padding: 5px;
+    background-color: #F8F7FD;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 16px;
+  }
+  
+  
+  
 
 

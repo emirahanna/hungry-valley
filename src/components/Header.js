@@ -10,6 +10,9 @@ function Header(){
     return (
         <header className="header">
             <h1 className="title">HungryValley</h1>
+            <div class="search-container">
+  <input type="text" class="search-input" placeholder="Search..."/>
+</div>
             {error && <p>Authentication Error</p>}
             {!error && isLoading && <p>Loading...</p>}
 			{!error && !isLoading && (
