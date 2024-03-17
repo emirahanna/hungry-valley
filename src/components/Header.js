@@ -1,5 +1,4 @@
 import React from "react";
-import html from "lit";
 import "./Header.css";
 
 
